@@ -2,21 +2,6 @@
 	"categories": [
 		{
 			"id": 1,
-			"name": "shop_by_brand",
-			"products": [
-				"creek",
-				"harbeth",
-				"jolida",
-				"manley",
-				"parasound",
-				"pro_ject",
-				"exposure",
-				"epos",
-				"boesendorfer"
-			]
-		},
-		{
-			"id": 2,
 			"name": "amplifiers",
 			"products": [
 				{
@@ -197,7 +182,7 @@
 			]
 		},
 		{
-			"id": 3,
+			"id": 2,
 			"name": "tube_amplifiers",
 			"products": [
 				{
@@ -378,7 +363,7 @@
 			]
 		},
 		{
-			"id": 4,
+			"id": 3,
 			"name": "high_end_tube_amplifiers",
 			"products": [
 				{
@@ -524,7 +509,7 @@
 			]
 		},
 		{
-			"id": 5,
+			"id": 4,
 			"name": "speakers",
 			"products": [
 				{
@@ -705,7 +690,7 @@
 			]
 		},
 		{
-			"id": 6,
+			"id": 5,
 			"name": "turntables",
 			"products": [
 				{
@@ -864,7 +849,7 @@
 			]
 		},
 		{
-			"id": 7,
+			"id": 6,
 			"name": "cd_players",
 			"products": [
 				{
@@ -1014,7 +999,7 @@
 			]
 		},
 		{
-			"id": 8,
+			"id": 7,
 			"name": "power_amplifiers",
 			"products": [
 				{
@@ -1126,7 +1111,7 @@
 			]
 		},
 		{
-			"id": 9,
+			"id": 8,
 			"name": "preamps_and_dacs",
 			"products": [
 				{
@@ -1237,7 +1222,7 @@
 			]
 		},
 		{
-			"id": 10,
+			"id": 9,
 			"name": "outlet",
 			"products": [
 				{

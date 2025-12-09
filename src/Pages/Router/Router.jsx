@@ -5,6 +5,9 @@ import Home from "../Home";
 import Brands from "../Brands";
 import Shop from "../Shop";
 
+//Loaders
+import { loadFilters } from "../../loaders/filter_loader";
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +25,7 @@ export const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop />,
+        loader: loadFilters,
       },
     ],
   },
