@@ -1,0 +1,1419 @@
+{
+	"categories": [
+		{
+			"id": 1,
+			"name": "shop_by_brand",
+			"products": [
+				"creek",
+				"harbeth",
+				"jolida",
+				"manley",
+				"parasound",
+				"pro_ject",
+				"exposure",
+				"epos",
+				"boesendorfer"
+			]
+		},
+		{
+			"id": 2,
+			"name": "amplifiers",
+			"products": [
+				{
+					"id": 1,
+					"name": "Creek Audio A50i Integrated Amplifier",
+					"price": 899.99,
+					"discount_price": 799.99,
+					"image": "creek_a50I.jpg",
+					"brand": "Creek",
+					"description": "The Creek A50i delivers exceptional British sound quality with 50W per channel. Class A/B design with premium components for natural, musical reproduction.",
+					"variants": [
+						{
+							"color": "Silver",
+							"stock": 8,
+							"image": "creek_a50I.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Creek Audio",
+						"model_number": "A50i",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.creekaudio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "50W per channel",
+						"frequency_response": "20Hz - 20kHz",
+						"total_harmonic_distortion": "<0.01%",
+						"damping_factor": "200",
+						"input_sensitivity": "200mV",
+						"signal_to_noise_ratio": ">100dB",
+						"dimensions": "17.0 x 12.0 x 3.5 inches",
+						"weight": "15 lbs"
+					}
+				},
+				{
+					"id": 2,
+					"name": "Creek Classic Integrated Amplifier",
+					"price": 749.99,
+					"discount_price": null,
+					"image": "creek_classic.jpg",
+					"brand": "Creek",
+					"description": "The Creek Classic brings timeless British hi-fi design to your home. Warm, detailed sound with excellent build quality.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 12,
+							"image": "creek_classic.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Creek Audio",
+						"model_number": "Classic",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.creekaudio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "45W per channel",
+						"frequency_response": "20Hz - 20kHz",
+						"total_harmonic_distortion": "<0.02%",
+						"damping_factor": "180",
+						"input_sensitivity": "200mV",
+						"signal_to_noise_ratio": ">98dB",
+						"dimensions": "17.0 x 11.5 x 3.2 inches",
+						"weight": "13 lbs"
+					}
+				},
+				{
+					"id": 3,
+					"name": "Creek 5350SE Integrated Amplifier",
+					"price": 1299.99,
+					"discount_price": 1199.99,
+					"image": "creek_classic5350SE.jpg",
+					"brand": "Creek",
+					"description": "The flagship 5350SE offers 85W per channel with exceptional refinement. Remote control and multiple inputs for the discerning audiophile.",
+					"variants": [
+						{
+							"color": "Silver",
+							"stock": 5,
+							"image": "creek_classic5350SE.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Creek Audio",
+						"model_number": "5350SE",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.creekaudio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "85W per channel",
+						"frequency_response": "10Hz - 100kHz",
+						"total_harmonic_distortion": "<0.005%",
+						"damping_factor": "300",
+						"input_sensitivity": "150mV",
+						"signal_to_noise_ratio": ">105dB",
+						"dimensions": "17.0 x 13.0 x 3.5 inches",
+						"weight": "18 lbs"
+					}
+				},
+				{
+					"id": 4,
+					"name": "Creek Destiny Integrated Amplifier",
+					"price": 1899.99,
+					"discount_price": null,
+					"image": "creek_destinyamp.jpg",
+					"brand": "Creek",
+					"description": "The Destiny represents Creek's statement in integrated amplification. 100W per channel with audiophile-grade components throughout.",
+					"variants": [
+						{
+							"color": "Silver",
+							"stock": 3,
+							"image": "creek_destinyamp.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Creek Audio",
+						"model_number": "Destiny",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.creekaudio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "5-7 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "100W per channel",
+						"frequency_response": "5Hz - 100kHz",
+						"total_harmonic_distortion": "<0.003%",
+						"damping_factor": "400",
+						"input_sensitivity": "150mV",
+						"signal_to_noise_ratio": ">110dB",
+						"dimensions": "17.5 x 14.0 x 4.0 inches",
+						"weight": "22 lbs"
+					}
+				},
+				{
+					"id": 5,
+					"name": "Exposure 2010S Integrated Amplifier",
+					"price": 1099.99,
+					"discount_price": 999.99,
+					"image": "exposure_2010S.jpg",
+					"brand": "Exposure",
+					"description": "Hand-built in England, the 2010S delivers musical transparency and dynamic punch. 75W per channel with exceptional imaging.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 6,
+							"image": "exposure_2010S.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Exposure Electronics",
+						"model_number": "2010S",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.exposurehifi.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "75W per channel",
+						"frequency_response": "20Hz - 20kHz",
+						"total_harmonic_distortion": "<0.01%",
+						"damping_factor": "250",
+						"input_sensitivity": "180mV",
+						"signal_to_noise_ratio": ">102dB",
+						"dimensions": "17.0 x 12.5 x 4.0 inches",
+						"weight": "17 lbs"
+					}
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "tube_amplifiers",
+			"products": [
+				{
+					"id": 1,
+					"name": "Jolida JD102B Tube Integrated Amplifier",
+					"price": 549.99,
+					"discount_price": 499.99,
+					"image": "jolida_JD102b.jpg",
+					"brand": "Jolida",
+					"description": "Entry-level tube magic with EL84 output tubes. 20W per channel of warm, lush sound perfect for efficient speakers.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 10,
+							"image": "jolida_JD102b.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Jolida",
+						"model_number": "JD102B",
+						"warranty": "1 year",
+						"manufacturer_website": "https://www.jolida.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "20W per channel",
+						"tube_complement": "4x EL84, 2x 12AX7, 2x 12AT7",
+						"frequency_response": "30Hz - 25kHz",
+						"total_harmonic_distortion": "<1%",
+						"input_sensitivity": "350mV",
+						"signal_to_noise_ratio": ">85dB",
+						"dimensions": "12.0 x 10.0 x 6.0 inches",
+						"weight": "22 lbs"
+					}
+				},
+				{
+					"id": 2,
+					"name": "Jolida JD202A Tube Integrated Amplifier",
+					"price": 799.99,
+					"discount_price": null,
+					"image": "jolida_JD202a.jpg",
+					"brand": "Jolida",
+					"description": "The JD202A uses EL34 tubes for 40W of glorious tube power. Remote control and improved build quality.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 8,
+							"image": "jolida_JD202a.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Jolida",
+						"model_number": "JD202A",
+						"warranty": "1 year",
+						"manufacturer_website": "https://www.jolida.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "40W per channel",
+						"tube_complement": "4x EL34, 2x 12AX7, 2x 12AT7",
+						"frequency_response": "20Hz - 30kHz",
+						"total_harmonic_distortion": "<0.5%",
+						"input_sensitivity": "300mV",
+						"signal_to_noise_ratio": ">88dB",
+						"dimensions": "14.0 x 11.0 x 7.0 inches",
+						"weight": "35 lbs"
+					}
+				},
+				{
+					"id": 3,
+					"name": "Jolida JD300B Tube Amplifier",
+					"price": 1599.99,
+					"discount_price": 1449.99,
+					"image": "jolida_JD300b.jpg",
+					"brand": "Jolida",
+					"description": "Single-ended 300B triode design for the ultimate in midrange purity. 8W of pure Class A magic.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 4,
+							"image": "jolida_JD300b.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Jolida",
+						"model_number": "JD300B",
+						"warranty": "1 year",
+						"manufacturer_website": "https://www.jolida.com",
+						"delivery_charge": "Free",
+						"delivery_time": "5-7 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "8W per channel (SET)",
+						"tube_complement": "2x 300B, 2x 6SN7",
+						"frequency_response": "25Hz - 25kHz",
+						"total_harmonic_distortion": "<1.5%",
+						"input_sensitivity": "500mV",
+						"signal_to_noise_ratio": ">82dB",
+						"dimensions": "14.0 x 12.0 x 8.0 inches",
+						"weight": "42 lbs"
+					}
+				},
+				{
+					"id": 4,
+					"name": "Jolida JD302B Tube Integrated Amplifier",
+					"price": 899.99,
+					"discount_price": null,
+					"image": "jolida_JD302b.jpg",
+					"brand": "Jolida",
+					"description": "50W push-pull design with EL34 tubes. Biased for optimal performance with full remote control.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 6,
+							"image": "jolida_JD302b.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Jolida",
+						"model_number": "JD302B",
+						"warranty": "1 year",
+						"manufacturer_website": "https://www.jolida.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "50W per channel",
+						"tube_complement": "4x EL34, 2x 12AX7, 2x 12AT7",
+						"frequency_response": "18Hz - 35kHz",
+						"total_harmonic_distortion": "<0.3%",
+						"input_sensitivity": "280mV",
+						"signal_to_noise_ratio": ">90dB",
+						"dimensions": "15.0 x 12.0 x 7.5 inches",
+						"weight": "40 lbs"
+					}
+				},
+				{
+					"id": 5,
+					"name": "Jolida JD502B Tube Integrated Amplifier",
+					"price": 1199.99,
+					"discount_price": 1099.99,
+					"image": "jolida_JD502b.jpg",
+					"brand": "Jolida",
+					"description": "60W of commanding tube power with KT88 output tubes. Robust design for demanding speakers.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 5,
+							"image": "jolida_JD502b.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Jolida",
+						"model_number": "JD502B",
+						"warranty": "1 year",
+						"manufacturer_website": "https://www.jolida.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "60W per channel",
+						"tube_complement": "4x KT88, 2x 12AX7, 2x 12AT7",
+						"frequency_response": "15Hz - 40kHz",
+						"total_harmonic_distortion": "<0.2%",
+						"input_sensitivity": "250mV",
+						"signal_to_noise_ratio": ">92dB",
+						"dimensions": "16.0 x 13.0 x 8.0 inches",
+						"weight": "48 lbs"
+					}
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "high_end_tube_amplifiers",
+			"products": [
+				{
+					"id": 1,
+					"name": "Manley Mahi Monoblock Power Amplifiers",
+					"price": 2950.00,
+					"discount_price": null,
+					"image": "manley_mahi.jpg",
+					"brand": "Manley Labs",
+					"description": "Compact monoblock amplifiers with switchable triode/ultralinear operation. 20W triode, 40W ultralinear per block.",
+					"variants": [
+						{
+							"color": "Silver/Blue",
+							"stock": 2,
+							"image": "manley_mahi.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Manley Labs",
+						"model_number": "Mahi",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.manley.com",
+						"delivery_charge": "Free",
+						"delivery_time": "7-10 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "20W triode / 40W ultralinear",
+						"tube_complement": "2x EL84 per monoblock",
+						"frequency_response": "18Hz - 35kHz",
+						"total_harmonic_distortion": "<0.5%",
+						"input_sensitivity": "1V",
+						"signal_to_noise_ratio": ">90dB",
+						"dimensions": "8.5 x 11.0 x 6.0 inches each",
+						"weight": "18 lbs each"
+					}
+				},
+				{
+					"id": 2,
+					"name": "Manley Neo-Classic 300B Monoblock Amplifiers",
+					"price": 7500.00,
+					"discount_price": 6999.99,
+					"image": "manley_neoclassic300b.jpg",
+					"brand": "Manley Labs",
+					"description": "Reference single-ended 300B monoblocks. Pure Class A operation with 11W of exquisite tube sound.",
+					"variants": [
+						{
+							"color": "Chrome",
+							"stock": 1,
+							"image": "manley_neoclassic300b.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Manley Labs",
+						"model_number": "Neo-Classic 300B",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.manley.com",
+						"delivery_charge": "Free",
+						"delivery_time": "10-14 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "11W Class A SET",
+						"tube_complement": "1x 300B, 1x 6SL7 per monoblock",
+						"frequency_response": "20Hz - 20kHz",
+						"total_harmonic_distortion": "<1%",
+						"input_sensitivity": "750mV",
+						"signal_to_noise_ratio": ">85dB",
+						"dimensions": "9.0 x 16.0 x 8.0 inches each",
+						"weight": "35 lbs each"
+					}
+				},
+				{
+					"id": 3,
+					"name": "Manley Snapper Monoblock Power Amplifiers",
+					"price": 4950.00,
+					"discount_price": null,
+					"image": "manley_snapper.jpg",
+					"brand": "Manley Labs",
+					"description": "100W monoblock amplifiers with EL34 tubes. Switchable triode/ultralinear for ultimate flexibility.",
+					"variants": [
+						{
+							"color": "Silver/Blue",
+							"stock": 2,
+							"image": "manley_snapper.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Manley Labs",
+						"model_number": "Snapper",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.manley.com",
+						"delivery_charge": "Free",
+						"delivery_time": "7-10 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "50W triode / 100W ultralinear",
+						"tube_complement": "4x EL34, 1x 12AT7, 1x 6414 per monoblock",
+						"frequency_response": "15Hz - 65kHz",
+						"total_harmonic_distortion": "<0.3%",
+						"input_sensitivity": "1.2V",
+						"signal_to_noise_ratio": ">95dB",
+						"dimensions": "8.5 x 17.0 x 8.0 inches each",
+						"weight": "45 lbs each"
+					}
+				},
+				{
+					"id": 4,
+					"name": "Manley Stingray II Integrated Amplifier",
+					"price": 5750.00,
+					"discount_price": 5499.99,
+					"image": "Manley_Stingray.jpg",
+					"brand": "Manley Labs",
+					"description": "Iconic integrated tube amplifier with stunning design. 32W triode, 50W ultralinear with remote control.",
+					"variants": [
+						{
+							"color": "Silver/Blue",
+							"stock": 2,
+							"image": "Manley_Stingray.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Manley Labs",
+						"model_number": "Stingray II",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.manley.com",
+						"delivery_charge": "Free",
+						"delivery_time": "7-10 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "32W triode / 50W ultralinear",
+						"tube_complement": "8x EL84, 2x 12AT7",
+						"frequency_response": "18Hz - 70kHz",
+						"total_harmonic_distortion": "<0.4%",
+						"input_sensitivity": "200mV",
+						"signal_to_noise_ratio": ">92dB",
+						"dimensions": "18.0 x 14.0 x 6.0 inches",
+						"weight": "42 lbs"
+					}
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "speakers",
+			"products": [
+				{
+					"id": 1,
+					"name": "Harbeth P3ESR Compact Bookshelf Speakers",
+					"price": 2199.99,
+					"discount_price": null,
+					"image": "harbeth_p3es2.jpg",
+					"brand": "Harbeth",
+					"description": "The legendary BBC-derived mini monitor. Radial cone technology delivers remarkable midrange clarity in a compact enclosure.",
+					"variants": [
+						{
+							"color": "Cherry",
+							"stock": 4,
+							"image": "harbeth_p3es2.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Harbeth",
+						"model_number": "P3ESR",
+						"warranty": "5 years",
+						"manufacturer_website": "https://www.harbeth.co.uk",
+						"delivery_charge": "Free",
+						"delivery_time": "5-7 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"frequency_response": "75Hz - 20kHz",
+						"sensitivity": "83dB",
+						"power_handling": "50W",
+						"impedance": "6 ohms",
+						"driver_size": "5 inch RADIAL2, 0.75 inch tweeter",
+						"crossover_frequency": "3.5kHz",
+						"dimensions": "12.0 x 7.5 x 7.5 inches",
+						"weight": "12.8 lbs each"
+					}
+				},
+				{
+					"id": 2,
+					"name": "Harbeth Monitor 30.2 Bookshelf Speakers",
+					"price": 4499.99,
+					"discount_price": 4199.99,
+					"image": "harbeth_monitor30.jpg",
+					"brand": "Harbeth",
+					"description": "Professional monitor with stunning vocal reproduction. The choice of mastering engineers and audiophiles worldwide.",
+					"variants": [
+						{
+							"color": "Rosewood",
+							"stock": 2,
+							"image": "harbeth_monitor30.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Harbeth",
+						"model_number": "Monitor 30.2",
+						"warranty": "5 years",
+						"manufacturer_website": "https://www.harbeth.co.uk",
+						"delivery_charge": "Free",
+						"delivery_time": "5-7 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"frequency_response": "50Hz - 20kHz",
+						"sensitivity": "85dB",
+						"power_handling": "100W",
+						"impedance": "6 ohms",
+						"driver_size": "8 inch RADIAL2, 1 inch tweeter",
+						"crossover_frequency": "2.8kHz",
+						"dimensions": "17.0 x 10.5 x 11.0 inches",
+						"weight": "23.5 lbs each"
+					}
+				},
+				{
+					"id": 3,
+					"name": "Harbeth HL7ES-3 Floorstanding Speakers",
+					"price": 6299.99,
+					"discount_price": null,
+					"image": "harbeth_hl7es2.jpg",
+					"brand": "Harbeth",
+					"description": "Full-range performance in a compact floorstander. Deep bass extension with trademark Harbeth midrange clarity.",
+					"variants": [
+						{
+							"color": "Cherry",
+							"stock": 2,
+							"image": "harbeth_hl7es2.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Harbeth",
+						"model_number": "HL7ES-3",
+						"warranty": "5 years",
+						"manufacturer_website": "https://www.harbeth.co.uk",
+						"delivery_charge": "Free",
+						"delivery_time": "7-10 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"frequency_response": "40Hz - 20kHz",
+						"sensitivity": "86dB",
+						"power_handling": "150W",
+						"impedance": "6 ohms",
+						"driver_size": "8 inch RADIAL2, 1 inch super tweeter",
+						"crossover_frequency": "1.7kHz",
+						"dimensions": "24.0 x 10.5 x 11.5 inches",
+						"weight": "32 lbs each"
+					}
+				},
+				{
+					"id": 4,
+					"name": "Epos M5 Bookshelf Speakers",
+					"price": 599.99,
+					"discount_price": 549.99,
+					"image": "epos_m5.gif",
+					"brand": "Epos",
+					"description": "Compact British monitor with exceptional imaging. Perfect for smaller rooms and near-field listening.",
+					"variants": [
+						{
+							"color": "Cherry",
+							"stock": 8,
+							"image": "epos_m5.gif"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Epos",
+						"model_number": "M5",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.epos-acoustics.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"frequency_response": "65Hz - 20kHz",
+						"sensitivity": "86dB",
+						"power_handling": "75W",
+						"impedance": "4 ohms",
+						"driver_size": "5 inch polypropylene, 1 inch tweeter",
+						"crossover_frequency": "2.8kHz",
+						"dimensions": "11.0 x 7.0 x 8.0 inches",
+						"weight": "10 lbs each"
+					}
+				},
+				{
+					"id": 5,
+					"name": "Bösendorfer VCS Wall-Mount Speakers",
+					"price": 1999.99,
+					"discount_price": 1799.99,
+					"image": "boesendorfer_vcs_wall.gif",
+					"brand": "Bösendorfer",
+					"description": "Elegant wall-mounted speakers from the legendary piano maker. Piano-grade craftsmanship meets audiophile performance.",
+					"variants": [
+						{
+							"color": "Piano Black",
+							"stock": 3,
+							"image": "boesendorfer_vcs_wall.gif"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Bösendorfer",
+						"model_number": "VCS Wall",
+						"warranty": "5 years",
+						"manufacturer_website": "https://www.bosendorfer.com",
+						"delivery_charge": "Free",
+						"delivery_time": "7-10 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"frequency_response": "50Hz - 22kHz",
+						"sensitivity": "88dB",
+						"power_handling": "100W",
+						"impedance": "8 ohms",
+						"driver_size": "5 inch woofer, 1 inch dome tweeter",
+						"crossover_frequency": "3.0kHz",
+						"dimensions": "14.0 x 9.0 x 5.0 inches",
+						"weight": "15 lbs each"
+					}
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "turntables",
+			"products": [
+				{
+					"id": 1,
+					"name": "Pro-Ject Debut III Turntable",
+					"price": 449.99,
+					"discount_price": 399.99,
+					"image": "Pro_ject_Debut_3_bl.jpg",
+					"brand": "Pro-Ject",
+					"description": "The legendary Debut III brings audiophile vinyl playback to everyone. Belt drive with carbon fiber tonearm.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 12,
+							"image": "Pro_ject_Debut_3_bl.jpg"
+						},
+						{
+							"color": "Red",
+							"stock": 6,
+							"image": "Pro_ject_Debut_III_red_1.jpg"
+						},
+						{
+							"color": "Yellow",
+							"stock": 4,
+							"image": "Pro_ject_Debut_III_yellow_1.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Pro-Ject Audio",
+						"model_number": "Debut III",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.project-audio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"drive_type": "Belt drive",
+						"speeds": "33 1/3, 45 RPM",
+						"platter": "MDF with felt mat",
+						"tonearm": "8.6 inch aluminum",
+						"cartridge": "Ortofon OM5e (pre-mounted)",
+						"wow_and_flutter": "<0.10%",
+						"signal_to_noise_ratio": "-68dB",
+						"dimensions": "16.3 x 12.0 x 4.6 inches",
+						"weight": "12 lbs"
+					}
+				},
+				{
+					"id": 2,
+					"name": "Pro-Ject RPM 5 Carbon Turntable",
+					"price": 1099.99,
+					"discount_price": null,
+					"image": "Pro_ject_rpm_5.jpg",
+					"brand": "Pro-Ject",
+					"description": "The RPM 5 Carbon features a decoupled motor and carbon fiber tonearm. Acrylic platter for superior speed stability.",
+					"variants": [
+						{
+							"color": "Black/Red",
+							"stock": 5,
+							"image": "Pro_ject_rpm_5.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Pro-Ject Audio",
+						"model_number": "RPM 5 Carbon",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.project-audio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"drive_type": "Belt drive (decoupled motor)",
+						"speeds": "33 1/3, 45 RPM",
+						"platter": "Acrylic",
+						"tonearm": "9 inch carbon fiber",
+						"cartridge": "Ortofon 2M Red (pre-mounted)",
+						"wow_and_flutter": "<0.04%",
+						"signal_to_noise_ratio": "-70dB",
+						"dimensions": "18.0 x 12.0 x 5.0 inches",
+						"weight": "16 lbs"
+					}
+				},
+				{
+					"id": 3,
+					"name": "Pro-Ject RPM 10 Carbon Turntable",
+					"price": 2999.99,
+					"discount_price": 2799.99,
+					"image": "Pro_ject_rpm10.jpg",
+					"brand": "Pro-Ject",
+					"description": "Reference turntable with inverted bearing and magnetic drive. 10CC Evolution tonearm for ultimate vinyl reproduction.",
+					"variants": [
+						{
+							"color": "Black/Red",
+							"stock": 2,
+							"image": "Pro_ject_rpm10.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Pro-Ject Audio",
+						"model_number": "RPM 10 Carbon",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.project-audio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "5-7 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"drive_type": "Belt drive with magnetic decoupling",
+						"speeds": "33 1/3, 45 RPM",
+						"platter": "MDF with vinyl coating",
+						"tonearm": "10CC Evolution carbon fiber",
+						"cartridge": "Ortofon Quintet Red (pre-mounted)",
+						"wow_and_flutter": "<0.02%",
+						"signal_to_noise_ratio": "-75dB",
+						"dimensions": "18.5 x 14.0 x 6.0 inches",
+						"weight": "22 lbs"
+					}
+				},
+				{
+					"id": 4,
+					"name": "Pro-Ject Pre Box S2 Digital DAC",
+					"price": 399.99,
+					"discount_price": 349.99,
+					"image": "Project_prebox.jpg",
+					"brand": "Pro-Ject",
+					"description": "High-resolution DAC with MQA decoding. ESS Sabre chip and DSD256 support in compact form factor.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 10,
+							"image": "Project_prebox.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Pro-Ject Audio",
+						"model_number": "Pre Box S2 Digital",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.project-audio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "2-4 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"dac_chip": "ESS Sabre ES9038Q2M",
+						"max_resolution": "32-bit/768kHz, DSD256, MQA",
+						"inputs": "USB-B, Optical, Coaxial",
+						"outputs": "RCA, 6.3mm headphone",
+						"headphone_output": "32 ohms - 600 ohms",
+						"signal_to_noise_ratio": ">117dB",
+						"dimensions": "4.1 x 1.4 x 5.9 inches",
+						"weight": "1.1 lbs"
+					}
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "cd_players",
+			"products": [
+				{
+					"id": 1,
+					"name": "Creek Classic CD Player",
+					"price": 849.99,
+					"discount_price": 799.99,
+					"image": "creek_classic_cd.jpg",
+					"brand": "Creek",
+					"description": "The Creek Classic CD brings the same musical refinement as the amplifier. Smooth, detailed playback with remote control.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 8,
+							"image": "creek_classic_cd.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Creek Audio",
+						"model_number": "Classic CD",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.creekaudio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"dac_type": "24-bit Wolfson DAC",
+						"frequency_response": "20Hz - 20kHz",
+						"signal_to_noise_ratio": ">100dB",
+						"dynamic_range": ">96dB",
+						"total_harmonic_distortion": "<0.003%",
+						"disc_compatibility": "CD, CD-R, CD-RW",
+						"digital_outputs": "Optical, Coaxial",
+						"dimensions": "17.0 x 11.0 x 3.2 inches",
+						"weight": "11 lbs"
+					}
+				},
+				{
+					"id": 2,
+					"name": "Creek Destiny CD Player",
+					"price": 1999.99,
+					"discount_price": null,
+					"image": "creek_Destiny_CD.jpg",
+					"brand": "Creek",
+					"description": "Reference CD player with dual-differential DAC architecture. The ultimate expression of Creek's digital expertise.",
+					"variants": [
+						{
+							"color": "Silver",
+							"stock": 3,
+							"image": "creek_Destiny_CD.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Creek Audio",
+						"model_number": "Destiny CD",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.creekaudio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "5-7 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"dac_type": "Dual Wolfson WM8742 24-bit DAC",
+						"frequency_response": "10Hz - 20kHz",
+						"signal_to_noise_ratio": ">110dB",
+						"dynamic_range": ">105dB",
+						"total_harmonic_distortion": "<0.0008%",
+						"disc_compatibility": "CD, CD-R, CD-RW, HDCD",
+						"digital_outputs": "Optical, Coaxial, AES/EBU",
+						"dimensions": "17.5 x 13.0 x 4.0 inches",
+						"weight": "16 lbs"
+					}
+				},
+				{
+					"id": 3,
+					"name": "Creek Evolution CD Player",
+					"price": 1299.99,
+					"discount_price": 1199.99,
+					"image": "creek_evo_cd.jpg",
+					"brand": "Creek",
+					"description": "The Evolution CD bridges the gap between Classic and Destiny. Exceptional value with high-end performance.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 5,
+							"image": "creek_evo_cd.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Creek Audio",
+						"model_number": "Evolution CD",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.creekaudio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"dac_type": "Wolfson WM8740 24-bit DAC",
+						"frequency_response": "15Hz - 20kHz",
+						"signal_to_noise_ratio": ">105dB",
+						"dynamic_range": ">100dB",
+						"total_harmonic_distortion": "<0.001%",
+						"disc_compatibility": "CD, CD-R, CD-RW",
+						"digital_outputs": "Optical, Coaxial",
+						"dimensions": "17.0 x 12.0 x 3.5 inches",
+						"weight": "13 lbs"
+					}
+				},
+				{
+					"id": 4,
+					"name": "Exposure 2010S CD Player",
+					"price": 1199.99,
+					"discount_price": null,
+					"image": "Exp_2010S_CD.gif",
+					"brand": "Exposure",
+					"description": "Hand-built CD player matched to the 2010S amplifier. Musical and transparent with excellent build quality.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 4,
+							"image": "Exp_2010S_CD.gif"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Exposure Electronics",
+						"model_number": "2010S CD",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.exposurehifi.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"dac_type": "Burr-Brown PCM1716 24-bit DAC",
+						"frequency_response": "20Hz - 20kHz",
+						"signal_to_noise_ratio": ">102dB",
+						"dynamic_range": ">98dB",
+						"total_harmonic_distortion": "<0.002%",
+						"disc_compatibility": "CD, CD-R, CD-RW",
+						"digital_outputs": "Optical, Coaxial",
+						"dimensions": "17.0 x 11.5 x 4.0 inches",
+						"weight": "12 lbs"
+					}
+				}
+			]
+		},
+		{
+			"id": 8,
+			"name": "power_amplifiers",
+			"products": [
+				{
+					"id": 1,
+					"name": "Parasound Halo A23 Power Amplifier",
+					"price": 1095.00,
+					"discount_price": null,
+					"image": "parasound_haloa23.jpg",
+					"brand": "Parasound",
+					"description": "125W stereo power amplifier designed by John Curl. High-current design for demanding speakers.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 6,
+							"image": "parasound_haloa23.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Parasound",
+						"model_number": "Halo A23",
+						"warranty": "5 years",
+						"manufacturer_website": "https://www.parasound.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "125W per channel (8 ohms)",
+						"frequency_response": "5Hz - 100kHz",
+						"total_harmonic_distortion": "<0.03%",
+						"damping_factor": ">800",
+						"input_sensitivity": "1V",
+						"signal_to_noise_ratio": ">110dB",
+						"dimensions": "17.25 x 5.5 x 15.5 inches",
+						"weight": "35 lbs"
+					}
+				},
+				{
+					"id": 2,
+					"name": "Parasound D200 Power Amplifier",
+					"price": 1795.00,
+					"discount_price": 1695.00,
+					"image": "parasound_d200.jpg",
+					"brand": "Parasound",
+					"description": "200W Class A/AB power amplifier with exceptional control. Balanced and unbalanced inputs.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 4,
+							"image": "parasound_d200.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Parasound",
+						"model_number": "D200",
+						"warranty": "5 years",
+						"manufacturer_website": "https://www.parasound.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"power_output": "200W per channel (8 ohms)",
+						"frequency_response": "5Hz - 150kHz",
+						"total_harmonic_distortion": "<0.02%",
+						"damping_factor": ">1000",
+						"input_sensitivity": "1.4V",
+						"signal_to_noise_ratio": ">115dB",
+						"dimensions": "19.0 x 6.0 x 17.0 inches",
+						"weight": "52 lbs"
+					}
+				},
+				{
+					"id": 3,
+					"name": "Parasound Classic 7100 Multi-Channel Amplifier",
+					"price": 2495.00,
+					"discount_price": null,
+					"image": "parasound_classic7100.jpg",
+					"brand": "Parasound",
+					"description": "5-channel amplifier for home theater. 150W per channel with THX Ultra certification.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 3,
+							"image": "parasound_classic7100.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Parasound",
+						"model_number": "Classic 7100",
+						"warranty": "5 years",
+						"manufacturer_website": "https://www.parasound.com",
+						"delivery_charge": "Free",
+						"delivery_time": "5-7 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"channels": "5",
+						"power_output": "150W per channel (8 ohms)",
+						"frequency_response": "10Hz - 100kHz",
+						"total_harmonic_distortion": "<0.04%",
+						"damping_factor": ">600",
+						"input_sensitivity": "1V",
+						"signal_to_noise_ratio": ">108dB",
+						"dimensions": "17.25 x 7.0 x 15.5 inches",
+						"weight": "55 lbs"
+					}
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "preamps_and_dacs",
+			"products": [
+				{
+					"id": 1,
+					"name": "Parasound Halo P3 Preamplifier",
+					"price": 895.00,
+					"discount_price": 849.00,
+					"image": "parasound_halop3.jpg",
+					"brand": "Parasound",
+					"description": "Audiophile preamplifier with phono stage. Remote control with bass management for subwoofers.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 7,
+							"image": "parasound_halop3.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Parasound",
+						"model_number": "Halo P3",
+						"warranty": "5 years",
+						"manufacturer_website": "https://www.parasound.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"inputs": "6x RCA, 1x Phono MM",
+						"outputs": "2x RCA Main, 1x Sub, 1x Tape",
+						"frequency_response": "5Hz - 100kHz",
+						"total_harmonic_distortion": "<0.005%",
+						"signal_to_noise_ratio": ">110dB",
+						"phono_gain": "40dB",
+						"dimensions": "17.25 x 4.0 x 12.0 inches",
+						"weight": "12 lbs"
+					}
+				},
+				{
+					"id": 2,
+					"name": "Parasound Halo D3 DAC",
+					"price": 1295.00,
+					"discount_price": null,
+					"image": "parasound_halod3.jpg",
+					"brand": "Parasound",
+					"description": "High-resolution DAC with USB, optical, and coaxial inputs. ESS Sabre chip for exceptional detail.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 5,
+							"image": "parasound_halod3.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Parasound",
+						"model_number": "Halo D3",
+						"warranty": "5 years",
+						"manufacturer_website": "https://www.parasound.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"dac_chip": "ESS Sabre ES9018K2M",
+						"max_resolution": "32-bit/384kHz, DSD128",
+						"inputs": "USB-B, 2x Optical, 2x Coaxial, AES/EBU",
+						"outputs": "Balanced XLR, RCA",
+						"frequency_response": "5Hz - 80kHz",
+						"signal_to_noise_ratio": ">115dB",
+						"dimensions": "17.25 x 4.0 x 12.0 inches",
+						"weight": "10 lbs"
+					}
+				},
+				{
+					"id": 3,
+					"name": "Creek OBH-22 Passive Preamplifier",
+					"price": 399.99,
+					"discount_price": 349.99,
+					"image": "Creek_OBH_22_Passive_Preamp.jpg",
+					"brand": "Creek",
+					"description": "Pure passive preamplifier for maximum transparency. Remote-controlled stepped attenuator.",
+					"variants": [
+						{
+							"color": "Silver",
+							"stock": 10,
+							"image": "Creek_OBH_22_Passive_Preamp.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Creek Audio",
+						"model_number": "OBH-22",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.creekaudio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None"
+					},
+					"specifications": {
+						"type": "Passive (no gain)",
+						"inputs": "4x RCA",
+						"outputs": "2x RCA",
+						"volume_control": "Stepped attenuator, 64 steps",
+						"channel_balance": "<0.1dB",
+						"frequency_response": "DC - 100kHz",
+						"dimensions": "3.5 x 2.5 x 8.0 inches",
+						"weight": "2 lbs"
+					}
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "outlet",
+			"products": [
+				{
+					"id": 1,
+					"name": "Jolida JD102B Tube Amplifier (Open Box)",
+					"price": 549.99,
+					"discount_price": 399.99,
+					"image": "jolida_JD102b.jpg",
+					"brand": "Jolida",
+					"description": "Open box unit in excellent condition. EL84 tube amplifier with 20W per channel of warm sound.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 2,
+							"image": "jolida_JD102b.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Jolida",
+						"model_number": "JD102B",
+						"warranty": "90 days",
+						"manufacturer_website": "https://www.jolida.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None",
+						"condition": "Open Box - Excellent"
+					},
+					"specifications": {
+						"power_output": "20W per channel",
+						"tube_complement": "4x EL84, 2x 12AX7, 2x 12AT7",
+						"frequency_response": "30Hz - 25kHz",
+						"total_harmonic_distortion": "<1%",
+						"dimensions": "12.0 x 10.0 x 6.0 inches",
+						"weight": "22 lbs"
+					}
+				},
+				{
+					"id": 2,
+					"name": "Pro-Ject Debut III Turntable (B-Stock)",
+					"price": 449.99,
+					"discount_price": 299.99,
+					"image": "Pro_ject_Debut_III_red_1.jpg",
+					"brand": "Pro-Ject",
+					"description": "Minor cosmetic imperfections, fully functional with 1-year warranty. Red finish.",
+					"variants": [
+						{
+							"color": "Red",
+							"stock": 3,
+							"image": "Pro_ject_Debut_III_red_1.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Pro-Ject Audio",
+						"model_number": "Debut III",
+						"warranty": "1 year",
+						"manufacturer_website": "https://www.project-audio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None",
+						"condition": "B-Stock - Minor Cosmetic Imperfections"
+					},
+					"specifications": {
+						"drive_type": "Belt drive",
+						"speeds": "33 1/3, 45 RPM",
+						"tonearm": "8.6 inch aluminum",
+						"cartridge": "Ortofon OM5e (pre-mounted)",
+						"wow_and_flutter": "<0.10%",
+						"dimensions": "16.3 x 12.0 x 4.6 inches",
+						"weight": "12 lbs"
+					}
+				},
+				{
+					"id": 3,
+					"name": "Creek Classic CD Player (Demo Unit)",
+					"price": 849.99,
+					"discount_price": 599.99,
+					"image": "creek_classic_cd.jpg",
+					"brand": "Creek",
+					"description": "Showroom demo unit in excellent condition. Full warranty included.",
+					"variants": [
+						{
+							"color": "Black",
+							"stock": 1,
+							"image": "creek_classic_cd.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Creek Audio",
+						"model_number": "Classic CD",
+						"warranty": "2 years",
+						"manufacturer_website": "https://www.creekaudio.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None",
+						"condition": "Demo Unit - Excellent"
+					},
+					"specifications": {
+						"dac_type": "24-bit Wolfson DAC",
+						"frequency_response": "20Hz - 20kHz",
+						"signal_to_noise_ratio": ">100dB",
+						"disc_compatibility": "CD, CD-R, CD-RW",
+						"digital_outputs": "Optical, Coaxial",
+						"dimensions": "17.0 x 11.0 x 3.2 inches",
+						"weight": "11 lbs"
+					}
+				},
+				{
+					"id": 4,
+					"name": "Epos M5 Speakers (Refurbished)",
+					"price": 599.99,
+					"discount_price": 399.99,
+					"image": "epos_m5.gif",
+					"brand": "Epos",
+					"description": "Factory refurbished with 90-day warranty. British monitor sound at an unbeatable price.",
+					"variants": [
+						{
+							"color": "Cherry",
+							"stock": 2,
+							"image": "epos_m5.gif"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Epos",
+						"model_number": "M5",
+						"warranty": "90 days",
+						"manufacturer_website": "https://www.epos-acoustics.com",
+						"delivery_charge": "Free",
+						"delivery_time": "3-5 business days",
+						"card_surcharge": "None",
+						"condition": "Factory Refurbished"
+					},
+					"specifications": {
+						"frequency_response": "65Hz - 20kHz",
+						"sensitivity": "86dB",
+						"power_handling": "75W",
+						"impedance": "4 ohms",
+						"driver_size": "5 inch polypropylene, 1 inch tweeter",
+						"dimensions": "11.0 x 7.0 x 8.0 inches",
+						"weight": "10 lbs each"
+					}
+				},
+				{
+					"id": 5,
+					"name": "Manley Mahi Monoblocks (Demo Pair)",
+					"price": 2950.00,
+					"discount_price": 2499.99,
+					"image": "manley_mahi.jpg",
+					"brand": "Manley Labs",
+					"description": "Showroom demo pair with fresh tubes. Full 3-year warranty included.",
+					"variants": [
+						{
+							"color": "Silver/Blue",
+							"stock": 1,
+							"image": "manley_mahi.jpg"
+						}
+					],
+					"additional_info": {
+						"manufacturer": "Manley Labs",
+						"model_number": "Mahi",
+						"warranty": "3 years",
+						"manufacturer_website": "https://www.manley.com",
+						"delivery_charge": "Free",
+						"delivery_time": "5-7 business days",
+						"card_surcharge": "None",
+						"condition": "Demo Unit - Excellent with Fresh Tubes"
+					},
+					"specifications": {
+						"power_output": "20W triode / 40W ultralinear",
+						"tube_complement": "2x EL84 per monoblock",
+						"frequency_response": "18Hz - 35kHz",
+						"total_harmonic_distortion": "<0.5%",
+						"dimensions": "8.5 x 11.0 x 6.0 inches each",
+						"weight": "18 lbs each"
+					}
+				}
+			]
+		}
+	]
+}
