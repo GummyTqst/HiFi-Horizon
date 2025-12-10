@@ -10,6 +10,7 @@ export default function ShopFilterItem({
   options,
   type = "checkbox",
   priceRange,
+  onChange,
 }) {
   const [minPrice, setMinPrice] = useState(priceRange?.min || 0);
   const [maxPrice, setMaxPrice] = useState(priceRange?.max || 0);
@@ -27,6 +28,22 @@ export default function ShopFilterItem({
       setMaxPrice(minPrice);
     }
   }, [maxPrice, minPrice]);
+
+  // Call onChange when checkedOptions changes
+  useEffect(() => {
+    if (onChange && type === "checkbox") {
+      onChange(checkedOptions);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [checkedOptions, type]);
+
+  // Call onChange when price changes
+  useEffect(() => {
+    if (onChange && type === "range") {
+      onChange(minPrice, maxPrice);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [minPrice, maxPrice, type]);
 
   const handleToggle = (e) => {
     setIsOpen(e.currentTarget.open);

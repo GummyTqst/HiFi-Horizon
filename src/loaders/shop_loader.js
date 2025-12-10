@@ -1,6 +1,6 @@
 import { API_BASE_URL } from "../config/api";
 
-export const loadFilters = async () => {
+export const loadShop = async () => {
   // First, fetch all categories
   const categoriesResponse = await fetch(`${API_BASE_URL}/categories`);
   if (!categoriesResponse.ok) {

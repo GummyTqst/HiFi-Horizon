@@ -7,7 +7,7 @@ import AboutUs from "../About";
 import Contact from "../Contact";
 
 //Loaders
-import { loadFilters } from "../../loaders/filter_loader";
+import { loadShop } from "../../loaders/shop_loader";
 import FAQ from "../faq";
 
 export const router = createBrowserRouter([
@@ -27,7 +27,7 @@ export const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop />,
-        loader: loadFilters,
+        loader: loadShop,
       },
       {
         path: "/contact",
@@ -36,7 +36,7 @@ export const router = createBrowserRouter([
       {
         path: "/faq",
         element: <FAQ />,
-      }
+      },
     ],
   },
 ]);
