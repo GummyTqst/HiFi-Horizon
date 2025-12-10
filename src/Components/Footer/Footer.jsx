@@ -1,8 +1,10 @@
 import { useState } from "react"
 import { AiOutlineHome, AiOutlinePhone, AiOutlineShopping, AiOutlineUser } from "react-icons/ai"
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa"
+import { FaCcMastercard, FaCcStripe, FaCcVisa, FaFacebook, FaInstagram, FaStripe, FaTwitter, FaYoutube } from "react-icons/fa"
 import { useNavigate } from "react-router"
 import { HashLink } from "react-router-hash-link"
+
+import "../Footer/Footer.sass"
 
 export default function Footer() {
     const [active, setActive] = useState("home")
@@ -46,6 +48,13 @@ export default function Footer() {
         { id: "youtube", label: "Youtube", path: "https://www.youtube.com/HiFiKlubbenDanmark", icon: <FaYoutube /> }
     ]
 
+    // Payment Methods
+    const paymentMethods = [
+        { id: "stripe", label: "Stripe", icon: <FaCcStripe /> },
+        { id: "visa", label: "Visa", icon: <FaCcVisa /> },
+        { id: "master", label: "Mastercard", icon: <FaCcMastercard /> },
+    ]
+
     const navigate = useNavigate()
 
     const handleNavigate = (path, id) => {
@@ -57,60 +66,77 @@ export default function Footer() {
 
     return (
         <footer className="footer">
-            <nav className="footer__nav">
-                <ul className="footer__nav-links">
-                    {navLinks.map(({ id, label, path }) => (
-                        <li
-                            key={id}
-                            className={`footer__nav-link ${active === id ? "footer__nav-link--active" : ""}`}
-                            onClick={() => handleNavigate(path, id)}
-                        >
-                            {label}
-                        </li>
-                    ))}
-                </ul>
-            </nav>
-
-            <div className="footer__faq">
-                <ul className="footer__faq-links">
-                    {faqLinks.map(({ id, label, path }) => (
-                        <li
-                            key={id}
-                            className="footer__faq-link"
-                        >
-                            <HashLink smooth to={path}>
+            <div className="footer__main">
+                <nav className="footer__nav">
+                    <ul className="footer__nav-links">
+                        {navLinks.map(({ id, label, path }) => (
+                            <li
+                                key={id}
+                                className={`footer__nav-link ${active === id ? "footer__nav-link--active" : ""}`}
+                                onClick={() => handleNavigate(path, id)}
+                            >
                                 {label}
-                            </HashLink>
-                        </li>
-                    ))}
-                </ul>
-            </div>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
 
-            <div className="footer__contact">
-                <p>Contact</p>
-                {contactInfo.map(({ id, label, phoneicon, phone }) => (
-                    <div key={id} className="footer__contact-item">
-                        <p className="footer__contact-address">{label}</p>
-                        <p className="footer__contact-phone">
-                            {phoneicon}
-                            <span>{phone}</span>
-                        </p>
+                <div className="footer__faq">
+                    <ul className="footer__faq-links">
+                        {faqLinks.map(({ id, label, path }) => (
+                            <li
+                                key={id}
+                                className="footer__faq-link"
+                            >
+                                <HashLink smooth to={path}>
+                                    {label}
+                                </HashLink>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                <div className="footer__contact">
+                    <p className="footer__contact-title">Contact</p>
+                    {contactInfo.map(({ id, label, phoneicon, phone }) => (
+                        <div key={id} className="footer__contact-item">
+                            <p className="footer__contact-address">{label}</p>
+                            <p className="footer__contact-phone">
+                                {phoneicon}
+                                <span>{phone}</span>
+                            </p>
+                        </div>
+                    ))}
+                    <div className="footer__social-media">
+                        {socialLinks.map(({ id, label, path, icon }) => (
+                            <a 
+                                key={id} 
+                                href={path} 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className="footer__social-link"
+                                aria-label={label}
+                            >
+                                {icon}
+                            </a>
+                        ))}
                     </div>
-                ))}
-                <div className="footer__social-media">
-                    {socialLinks.map(({ id, label, path, icon }) => (
-                        <a 
-                            key={id} 
-                            href={path} 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            className="footer__social-link"
-                            aria-label={label}
-                        >
+                </div>
+            </div>
+            
+            <hr className="footer__break-line" />
+
+            <div className="footer__payments">
+                <div className="footer__payments-methods">
+                    {paymentMethods.map(({ id, label, icon }) => (
+                        <div key={id} className="footer__payment-method" aria-label={label}>
                             {icon}
-                        </a>
+                        </div>
                     ))}
                 </div>
+                <p>
+                    HiFi Horizon (edinburgh) Ltd is registered in Scotland. No: SC049298. Registered office: 2 Joppa Rd, Edinburgh EH15 2EU
+                </p>
             </div>
         </footer>
     )
