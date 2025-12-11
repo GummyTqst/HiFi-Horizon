@@ -1,10 +1,14 @@
-.shop-filters {
-  width: 250px;
-}
+.shop-page {
+  display: flex;
 
-.products-grid {
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1.5rem;
+  &__shop-filters {
+    width: 250px;
+  }
+
+  &__products-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
 }

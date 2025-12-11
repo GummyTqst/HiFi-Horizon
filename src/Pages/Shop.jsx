@@ -51,12 +51,12 @@ export default function Shop() {
   };
 
   return (
-    <>
-      <div className="shop-filters">
+    <div className="shop-page">
+      <div className="shop-page__shop-filters">
         <ShopFilter filters={data} onFilterChange={setFilters} />
       </div>
 
-      <div className="products-grid">
+      <div className="shop-page__products-grid">
         {filteredProducts.map((item) => (
           <ProductCard
             key={`${item.id}-${item.name}`}
@@ -68,6 +68,6 @@ export default function Shop() {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 }
