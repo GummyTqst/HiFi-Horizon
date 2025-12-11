@@ -11,6 +11,7 @@ export default function ProductCard({
   stock,
   compareEnabled,
   stockEnabled,
+  cartEnabled,
 }) {
   return (
     <article className="product-card">
@@ -27,10 +28,18 @@ export default function ProductCard({
           alt={name}
         />
         <h3 className="product-card__name">{name}</h3>
-        <p className="product-card__price">$ {price}</p>
+        <p className="product-card__price">{price}</p>
       </Link>
       <section className="product-card__cart-stock">
-        <button className="product-card__add-to-cart">Add to Cart</button>
+        {cartEnabled ? (
+          <button className="product-card__add-to-cart">Add to Cart</button>
+        ) : (
+          <Link
+            to={`/productdetails/${itemId}`}
+            className="product-card__add-to-cart">
+            Read More
+          </Link>
+        )}
         {stockEnabled && (
           <p className="product-card__stock">
             {stock ? `In stock: ${stock}` : "Out of stock"}

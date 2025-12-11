@@ -67,6 +67,7 @@ export default function Shop() {
             stock={getStock(item)}
             compareEnabled={true}
             stockEnabled={true}
+            cartEnabled={false}
           />
         ))}
       </div>
