@@ -15,6 +15,7 @@
 					"variants": [
 						{
 							"color": "Silver",
+							"hex": "#b8b8b8",
 							"stock": 0,
 							"image": "creek_a50I.jpg"
 						}
@@ -55,6 +56,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 12,
 							"image": "creek_classic.jpg"
 						}
@@ -95,6 +97,7 @@
 					"variants": [
 						{
 							"color": "Silver",
+							"hex": "#b8b8b8",
 							"stock": 5,
 							"image": "creek_classic5350SE.jpg"
 						}
@@ -135,6 +138,7 @@
 					"variants": [
 						{
 							"color": "Silver",
+							"hex": "#b8b8b8",
 							"stock": 3,
 							"image": "creek_destinyamp.jpg"
 						}
@@ -175,6 +179,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 6,
 							"image": "exposure_2010S.jpg"
 						}
@@ -221,6 +226,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 10,
 							"image": "jolida_JD102b.jpg"
 						}
@@ -261,6 +267,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 8,
 							"image": "jolida_JD202a.jpg"
 						}
@@ -301,6 +308,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 4,
 							"image": "jolida_JD300b.jpg"
 						}
@@ -341,6 +349,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 6,
 							"image": "jolida_JD302b.jpg"
 						}
@@ -381,6 +390,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 5,
 							"image": "jolida_JD502b.jpg"
 						}
@@ -427,6 +437,7 @@
 					"variants": [
 						{
 							"color": "Silver/Blue",
+							"hex": "linear-gradient(135deg, #c0c0c0, #1e3a8a)",
 							"stock": 2,
 							"image": "manley_mahi.jpg"
 						}
@@ -467,6 +478,7 @@
 					"variants": [
 						{
 							"color": "Chrome",
+							"hex": "#d6d6d6",
 							"stock": 1,
 							"image": "manley_neoclassic300b.jpg"
 						}
@@ -507,6 +519,7 @@
 					"variants": [
 						{
 							"color": "Silver/Blue",
+							"hex": "linear-gradient(135deg, #C0C0C0, #1E3A8A)",
 							"stock": 2,
 							"image": "manley_snapper.jpg"
 						}
@@ -547,6 +560,7 @@
 					"variants": [
 						{
 							"color": "Silver/Blue",
+							"hex": "linear-gradient(135deg, #C0C0C0, #1E3A8A)",
 							"stock": 2,
 							"image": "Manley_Stingray.jpg"
 						}
@@ -593,6 +607,7 @@
 					"variants": [
 						{
 							"color": "Cherry",
+							"hex": "#7b2e2e",
 							"stock": 4,
 							"image": "harbeth_p3es2.jpg"
 						}
@@ -633,6 +648,7 @@
 					"variants": [
 						{
 							"color": "Rosewood",
+							"hex": "#5a2d2d",
 							"stock": 2,
 							"image": "harbeth_monitor30.jpg"
 						}
@@ -673,6 +689,7 @@
 					"variants": [
 						{
 							"color": "Cherry",
+							"hex": "#7b2e2e",
 							"stock": 2,
 							"image": "harbeth_hl7es2.jpg"
 						}
@@ -713,6 +730,7 @@
 					"variants": [
 						{
 							"color": "Cherry",
+							"hex": "#7b2e2e",
 							"stock": 8,
 							"image": "epos_m5.gif"
 						}
@@ -753,6 +771,7 @@
 					"variants": [
 						{
 							"color": "Piano Black",
+							"hex": "#0a0a0a",
 							"stock": 3,
 							"image": "boesendorfer_vcs_wall.gif"
 						}
@@ -799,16 +818,19 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 12,
 							"image": "Pro_ject_Debut_3_bl.jpg"
 						},
 						{
 							"color": "Red",
+							"hex": "#c62828",
 							"stock": 6,
 							"image": "Pro_ject_Debut_III_red_1.jpg"
 						},
 						{
 							"color": "Yellow",
+							"hex": "#fbc02d",
 							"stock": 4,
 							"image": "Pro_ject_Debut_III_yellow_1.jpg"
 						}
@@ -850,6 +872,7 @@
 					"variants": [
 						{
 							"color": "Black/Red",
+							"hex": "linear-gradient(135deg, #000000, #C62828)",
 							"stock": 5,
 							"image": "Pro_ject_rpm_5.jpg"
 						}
@@ -891,6 +914,7 @@
 					"variants": [
 						{
 							"color": "Black/Red",
+							"hex": "linear-gradient(135deg, #000000, #C62828)",
 							"stock": 2,
 							"image": "Pro_ject_rpm10.jpg"
 						}
@@ -932,6 +956,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 10,
 							"image": "Project_prebox.jpg"
 						}
@@ -978,6 +1003,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 8,
 							"image": "creek_classic_cd.jpg"
 						}
@@ -1019,6 +1045,7 @@
 					"variants": [
 						{
 							"color": "Silver",
+							"hex": "#b8b8b8",
 							"stock": 3,
 							"image": "creek_Destiny_CD.jpg"
 						}
@@ -1060,6 +1087,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 5,
 							"image": "creek_evo_cd.jpg"
 						}
@@ -1101,6 +1129,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 4,
 							"image": "Exp_2010S_CD.gif"
 						}
@@ -1148,6 +1177,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 6,
 							"image": "parasound_haloa23.jpg"
 						}
@@ -1188,6 +1218,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 4,
 							"image": "parasound_d200.jpg"
 						}
@@ -1228,6 +1259,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 3,
 							"image": "parasound_classic7100.jpg"
 						}
@@ -1275,6 +1307,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 7,
 							"image": "parasound_halop3.jpg"
 						}
@@ -1315,6 +1348,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 5,
 							"image": "parasound_halod3.jpg"
 						}
@@ -1355,6 +1389,7 @@
 					"variants": [
 						{
 							"color": "Silver",
+							"hex": "#b8b8b8",
 							"stock": 10,
 							"image": "Creek_OBH_22_Passive_Preamp.jpg"
 						}
@@ -1401,6 +1436,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 2,
 							"image": "jolida_JD102b.jpg"
 						}
@@ -1440,6 +1476,7 @@
 					"variants": [
 						{
 							"color": "Red",
+							"hex": "#c62828",
 							"stock": 3,
 							"image": "Pro_ject_Debut_III_red_1.jpg"
 						}
@@ -1480,6 +1517,7 @@
 					"variants": [
 						{
 							"color": "Black",
+							"hex": "#1c1c1c",
 							"stock": 1,
 							"image": "creek_classic_cd.jpg"
 						}
@@ -1520,6 +1558,7 @@
 					"variants": [
 						{
 							"color": "Cherry",
+							"hex": "#7b2e2e",
 							"stock": 2,
 							"image": "epos_m5.gif"
 						}
@@ -1560,6 +1599,7 @@
 					"variants": [
 						{
 							"color": "Silver/Blue",
+							"hex": "linear-gradient(135deg, #C0C0C0, #1E3A8A)",
 							"stock": 1,
 							"image": "manley_mahi.jpg"
 						}
