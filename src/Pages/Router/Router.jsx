@@ -1,5 +1,8 @@
 import { createBrowserRouter } from "react-router";
 import Layout from "../../Components/Layout/Layout";
+//Pages
+import Signup from "../Signup";
+import Login from "../Login";
 import ErrorPage from "../ErrorPage";
 import Home from "../Home";
 import Shop from "../Shop";
@@ -11,7 +14,7 @@ import { loadShop } from "../../loaders/shop_loader";
 import { loadAboutUs } from "../../loaders/about_loader";
 //FAQ Page
 import FAQ from "../faq";
-import ProductDetails from "../../Components/productDetails/ProductDetails";
+import ProductDetails from "../../Components/ProductDetails/ProductDetails";
 import { loadProductDetails } from "../../loaders/product_details_loader";
 
 export const router = createBrowserRouter([
@@ -46,6 +49,14 @@ export const router = createBrowserRouter([
       {
         path: "/faq",
         element: <FAQ />,
+      },
+      {
+        path: "/signup",
+        element: <Signup />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
     ],
   },
