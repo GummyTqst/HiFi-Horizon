@@ -31,6 +31,15 @@
     letter-spacing: 0.5px;
   }
 
+  &__password-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    vertical-align: middle;
+  }
+
   &__status {
     padding: 1rem;
     border-radius: 4px;

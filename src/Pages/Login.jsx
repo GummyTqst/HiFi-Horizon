@@ -1,6 +1,8 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router";
 import { useAuthStore } from "../stores/authStore";
+import { FaRegEye } from "react-icons/fa";
+import { FaRegEyeSlash } from "react-icons/fa";
 import "../Styles/login.scss";
 
 export default function Login() {
@@ -12,6 +14,7 @@ export default function Login() {
     password: "",
     remember: false,
   });
+  const [hidePassword, setHidePassword] = useState(true);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -68,10 +71,16 @@ export default function Login() {
 
             <div className="login-form__group">
               <label htmlFor="password">
-                Password <span className="required">*</span>
+                Password <span className="required">*</span>{" "}
+                <button
+                  type="button"
+                  className="login-form__password-toggle"
+                  onClick={() => setHidePassword(!hidePassword)}>
+                  {hidePassword ? <FaRegEye /> : <FaRegEyeSlash />}
+                </button>
               </label>
               <input
-                type="password"
+                type={hidePassword ? "password" : "text"}
                 id="password"
                 name="password"
                 value={formData.password}

@@ -111,7 +111,6 @@ export default function Profile() {
   return (
     <div className="profile-page">
       <div className="profile-page__container">
-        {/* Tabs */}
         <div className="profile-tabs">
           <button
             className={`profile-tabs__tab ${
@@ -129,7 +128,6 @@ export default function Profile() {
           </button>
         </div>
 
-        {/* Content */}
         {activeTab === "profile" && (
           <div className="profile-content">
             <h2 className="profile-content__title">YOUR PROFILE INFORMATION</h2>

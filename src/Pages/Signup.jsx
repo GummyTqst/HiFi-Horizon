@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { useAuthStore } from "../stores/authStore";
+import { FaRegEye } from "react-icons/fa";
+import { FaRegEyeSlash } from "react-icons/fa";
 import "../Styles/signup.scss";
 
 export default function Signup() {
@@ -21,6 +23,7 @@ export default function Signup() {
     terms: false,
     marketing: false,
   });
+  const [hidePassword, setHidePassword] = useState(true);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -184,10 +187,16 @@ export default function Signup() {
 
           <div className="signup-form__group">
             <label htmlFor="password">
-              Password <span className="required">*</span>
+              Password <span className="required">*</span>{" "}
+              <button
+                type="button"
+                className="signup-form__password-toggle"
+                onClick={() => setHidePassword(!hidePassword)}>
+                {hidePassword ? <FaRegEye /> : <FaRegEyeSlash />}
+              </button>
             </label>
             <input
-              type="password"
+              type={hidePassword ? "password" : "text"}
               id="password"
               name="password"
               value={formData.password}
@@ -198,10 +207,16 @@ export default function Signup() {
 
           <div className="signup-form__group">
             <label htmlFor="confirmPassword">
-              Repeat password <span className="required">*</span>
+              Repeat password <span className="required">*</span>{" "}
+              <button
+                type="button"
+                className="signup-form__password-toggle"
+                onClick={() => setHidePassword(!hidePassword)}>
+                {hidePassword ? <FaRegEye /> : <FaRegEyeSlash />}
+              </button>
             </label>
             <input
-              type="password"
+              type={hidePassword ? "password" : "text"}
               id="confirmPassword"
               name="confirmPassword"
               value={formData.confirmPassword}
