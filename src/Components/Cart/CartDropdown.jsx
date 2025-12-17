@@ -5,6 +5,7 @@ import "../Cart/CartDropdown.sass"
 export default function CartDropdown({ id }) {
     const items = useCartStore(state => state.items);
     const totalPrice = useCartStore(state => state.totalPrice())
+    const totalItemsCount = useCartStore(state => state.totalItems());
     const clearCart = useCartStore(state => state.clearCart);
 
     if (items.length === 0) {
@@ -13,27 +14,41 @@ export default function CartDropdown({ id }) {
 
     return (
         <div id={id} popover="auto" className="cart-dropdown">
-            {items.map(item => (
-                <div key={item.id} className="cart-dropdown__item">
-                    <img src={item.image} alt={item.name} />
-
-                    <div className="cart-dropdown__item-details">
-                        <p>{item.name}</p>
-                        <p>€{item.price.toFixed(2)}</p>
-                    </div>
-
-                    <QuantityControl item={item} />
-                </div>
-            ))}
-
-            <hr />
-
-            <div className="cart-dropdown__total">
-                <span>Total:</span>
-                <span>€{totalPrice.toFixed(2)}</span>
+            <div className="cart-dropdown__header">
+                <h2 className="cart-dropdown__title">Cart <span>({totalItemsCount} Items)</span></h2>
+                <button onClick={clearCart}>Remove all</button>
             </div>
-            <button onClick={clearCart}>Remove all</button>
-            <button>Checkout</button>
+            <div className="cart-dropdown__list">
+                {items.map(item => (
+                    <div key={item.id} className="cart-dropdown__item">
+                        <button className="cart-dropdown__remove">x</button>
+
+                        <div className="cart-dropdown__item-content">
+                            <img src={item.image} alt={item.name} className="cart-dropdown__img" />
+
+                            <div className="cart-dropdown__item-details">
+                                <p>{item.name}</p>
+
+                                <div className="cart-dropdown__controls">
+                                    <QuantityControl item={item} />
+                                    <span className="cart-dropdown__price">€{item.price.toFixed(2)}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+            <div className="cart-dropdown__footer">
+                <div className="cart-dropdown__subtotal">
+                    <span>Sub total:</span>
+                    <span className="amount">€ {totalPrice.toLocaleString()}</span>
+                </div>
+            </div>
+            <div className="cart-dropdown__actions">
+                <button className="btn-primary">Go to cart</button>
+                <button className="btn-secondary">Go to payment</button>
+            </div>
         </div>
     )
 }
