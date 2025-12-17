@@ -1,7 +1,46 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useAuthStore } from "../stores/authStore";
 import "../Styles/login.scss";
 
 export default function Login() {
+  const navigate = useNavigate();
+  const login = useAuthStore((state) => state.login);
+  const [status, setStatus] = useState(null);
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+    remember: false,
+  });
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: type === "checkbox" ? checked : value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setStatus(null);
+
+    // Use Zustand store to login
+    const result = login(formData.email, formData.password);
+
+    if (!result.success) {
+      setStatus({ type: "error", message: result.message });
+      return;
+    }
+
+    setStatus({ type: "success", message: result.message });
+
+    // Redirect to home after 1 second
+    setTimeout(() => {
+      navigate("/");
+    }, 1000);
+  };
+
   return (
     <div className="login-page">
       <h1 className="login-page__title">LOGIN</h1>
@@ -12,23 +51,43 @@ export default function Login() {
           <p className="login-form__description">
             If you have an account, sign in with your email address.
           </p>
-          <form className="login-form__form">
+          <form className="login-form__form" onSubmit={handleSubmit}>
             <div className="login-form__group">
               <label htmlFor="email">
                 Email <span className="required">*</span>
               </label>
-              <input type="email" id="email" name="email" required />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
             </div>
 
             <div className="login-form__group">
               <label htmlFor="password">
                 Password <span className="required">*</span>
               </label>
-              <input type="password" id="password" name="password" required />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                value={formData.password}
+                onChange={handleChange}
+                required
+              />
             </div>
 
             <div className="login-form__check">
-              <input type="checkbox" id="remember" name="remember" />
+              <input
+                type="checkbox"
+                id="remember"
+                name="remember"
+                checked={formData.remember}
+                onChange={handleChange}
+              />
               <label htmlFor="remember">Remember me</label>
             </div>
 
