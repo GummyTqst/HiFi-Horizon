@@ -1,7 +1,8 @@
 import { useCartStore } from "./CartStore";
 import QuantityControl from "./QuantityControl";
+import "../Cart/CartDropdown.sass"
 
-export default function CartDropdown() {
+export default function CartDropdown({ id }) {
     const items = useCartStore(state => state.items);
     const totalPrice = useCartStore(state => state.totalPrice())
     const clearCart = useCartStore(state => state.clearCart);
@@ -11,7 +12,7 @@ export default function CartDropdown() {
     }
 
     return (
-        <div className="cart-dropdown">
+        <div id={id} popover="auto" className="cart-dropdown">
             {items.map(item => (
                 <div key={item.id} className="cart-dropdown__item">
                     <img src={item.image} alt={item.name} />

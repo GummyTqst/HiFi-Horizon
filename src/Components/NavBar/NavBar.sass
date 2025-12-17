@@ -140,3 +140,28 @@
 
     &__mobile-link-icon
         font-size: 1.5rem
+
+    &__cart-container
+        position: relative
+        cursor: pointer
+
+    &__cart-badge
+        position: absolute
+        top: -8px
+        right: -8px
+        background: vars.$button
+        color: vars.$white
+        border-radius: 50%
+        padding: 0.2rem 0.5rem
+        font-size: 0.75rem
+        font-weight: bold
+    
+    &__cart-button
+        background: none
+        border: none
+        cursor: pointer
+        color: vars.$white
+        position: relative
+
+#cart-anchor
+    anchor-name: --cart-btn

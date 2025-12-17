@@ -135,14 +135,22 @@ export default function NavBar() {
             </div>
             
             <div className="navbar__cart-container" onClick={toggleCart}>
-                <AiOutlineShoppingCart size={24} className="navbar__cart" />
+                <button
+                    id="cart-anchor"
+                    className="navbar__cart-button"
+                    popoverTarget="cart-popover"
+                    aria-label="Shopping Cart"
+                >
+                    <AiOutlineShoppingCart size={24} className="navbar__cart" />
+                </button>
 
                 {totalItems > 0 && (
                     <span className="navbar__cart-badge">{totalItems()}</span>
                 )}
             </div>
-
-            {cartOpen && <CartDropdown />}
+            
+            <CartDropdown id="cart-popover" />
+            {/* {cartOpen && <CartDropdown />} */}
 
             <button
                 className="navbar__menu-toggle"
