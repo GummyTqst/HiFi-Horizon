@@ -3,7 +3,7 @@ import ProductCard from "../../product_card/product_card";
 import { API_BASE_URL} from "../../../config/api";
 import { useNavigate } from "react-router";
 
-import "../PopularProduct/popularproduct.sass"
+import "../PopularProduct/PopularProduct.sass"
 
 export default function PopularProduct() {
     const [products, setProducts] = useState([])
