@@ -1,5 +1,5 @@
 import { RouterProvider } from "react-router"
-import "./Styles/Main.sass"
+import "./Styles/main.sass"
 import { router } from "./Pages/Router/Router"
 
 function App() {
